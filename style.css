@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    text-align: center;
+    font-size: 18px;
+      background-color: bisque;
+  }
+  
+  h2 {
+    
+    color:brown;
+  }
+  
+  input[type=button] {
+    padding: 10px 20px;
+    background-color:cornflowerblue;
+    color:aquamarine;
+    outline: none;
+    text-transform: uppercase;
+      border-radius: 6px;
+  }
+  
+  .field {
+    margin-top: 20px;
+    display: inline-block;
+    border: 2px solid brown;
+  }
+  
+  .row {
+    height: 75px;
+  }
+  
+  .cell {
+    background-size: cover;
+    display: inline-block;
+    border: 2px solid rgb(230, 223, 223);
+    width: 75px;
+    height: 75px;
+    border-radius: 6px; 
+  }
+  
+  .hover-cell {
+    background-image: none !important;
+    background-color: chocolate;
+    border-radius: 6px;
+  }
